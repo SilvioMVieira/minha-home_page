@@ -1,4 +1,40 @@
 html{
-    background-color: azure;
-    font-style: italic;
+    background-color: rgb(168, 158, 160);
+    font-style:normal;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+font-size: 30px;
+color: red;
+text-align: center;
+margin: 0%;
+background-color: white;
+}
+
+p, li{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin: 10px;
+    color: red;
+}
+
+body{
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid rgb(231, 15, 15);
+}
+
+.foto *{
+    margin: 0 auto;
+    display: block;
+    border: black solid;
+    border-radius: 10px;
+}
+
+input{
+    padding: 10px;
 }
