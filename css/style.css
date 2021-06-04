@@ -15,20 +15,20 @@ h1{
     font-size: 80px;
     color: rgb(153, 128, 17);
     position: relative;
-    top: 170px;
+    top: 130px;
     left: -50px;
     font-weight: 0px;
     font-family: Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     letter-spacing: -2px;
-
+    
 }
 
 h2{
     color: rgb(10, 4, 4);
     font-size: 20px;
     position: relative;
-    top: 350px;
+    top: 270px;
     font-weight: 600;
     font-family:'Courier New', Courier, monospace ;
     
@@ -38,7 +38,7 @@ h3{
     font-size: 20px;
     color: rgba(39, 29, 29, 0.782);
     position: relative;
-    top: 250px;
+    top: 230px;
     font-family:'Courier New', Courier, monospace ;
     padding-left: 20px;
     
@@ -46,7 +46,7 @@ h3{
 p{
     font-size: 20px;
     position: relative;
-    top: 110px;
+    top: 70px;
     font-family: verdana, sans-serif;
     letter-spacing: 0px;
     word-spacing: 0px;
@@ -74,7 +74,7 @@ p{
 p1{
     font-size: 15px;
     position: relative;
-    top: 60px;
+    top: 20px;
     font-family: verdana, sans-serif;
     letter-spacing: 0px;
     word-spacing: 0px;
@@ -100,9 +100,9 @@ img{
     border-radius: 90px;
     height: 150px;
     position: absolute;
-    top: 130px;
+    top: 90px;
     left: 10px;
-    box-shadow: 1px 1px 6px black;
+    box-shadow: 1px 1px 10px black;
     
 }
 .menu{
@@ -114,7 +114,7 @@ img{
 }
 
 h2:hover{
-    background-color: turquoise;
+    color: rgb(200, 221, 219);
 }
 
 
@@ -124,21 +124,30 @@ h2:hover{
     line-height: 0;
 }
 
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    left: 40px;
+    position: relative;
+    top: 280px;
+  }
+  .social-icons .social-icon:last-child {
+    margin-right: 0;
+  }
+  .social-icons .social-icon:hover {
+    background-color: #bd5d38;
+  }
 
+  .dev-icons {
+    font-size: 3rem;
+  }
 
-
-/* .box:hover{
-    background-color: lavender; */
-}
-
-
-/* .foto *{
-    margin: 0 auto;
-    display: block;
-    border: black solid;
-    border-radius: 10px;
-}
-
-input{
-    padding: 10px;
-} */
+  
